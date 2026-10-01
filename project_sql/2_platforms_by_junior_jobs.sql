@@ -23,11 +23,11 @@ SELECT
     platform,
     SUM(is_junior_role) AS junior_salary_postings,
     ROUND(AVG(CASE WHEN is_junior_role = 1 THEN salary_year_avg END), 0) AS junior_avg_salary
-    
 FROM
     categorized_salary_jobs
 GROUP BY
     platform
 HAVING
     SUM(is_junior_role) > 0
+ORDER BY
     junior_salary_postings DESC;
