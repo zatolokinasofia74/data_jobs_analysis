@@ -150,7 +150,7 @@ ORDER BY
 LIMIT 20;
 ```
 
-> **![alt text](images\3_top_platforms_total.png)**
+> **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/d3bc50ff-3795-4d95-afa7-6d7cc00d6616" />**
 
 ### 4. Job Volume vs. Salary by Platform
 
@@ -194,7 +194,9 @@ ORDER BY
 LIMIT 30;
 ```
 
-> **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/d3bc50ff-3795-4d95-afa7-6d7cc00d6616" />
+> **
+<img width="2400" height="1500" alt="image" src="https://github.com/user-attachments/assets/61ef2d37-3a8e-427b-aba6-479ddff04ba8" />
+
 **
 
 ### 5. Optimal Skills for Junior Professionals
