@@ -111,7 +111,7 @@ ORDER BY
     junior_salary_postings DESC;
 ```
 
-> **![alt text](images\2_junior_jobs_volume.png)**
+> **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/1af7610a-ed88-4cc4-8d6d-5bcb2cf773f7" />**
 
 ### 3. Top Platforms by Job Quantity (Pivoted by Role)
 
