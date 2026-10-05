@@ -1,4 +1,4 @@
-# Data Job Market Analysis
+# Data job market analysis
 
 ## Introduction
 
@@ -13,7 +13,7 @@ The analysis identifies which platforms offer the most attractive remote salarie
 Ultimately, this project demonstrates how raw job-market data can be transformed into actionable insights — turning thousands of job postings into a clearer strategy for entering and growing in the data industry.
 
 
-## Tools Used
+## Tools used
 
 * **SQL**
 * **Python (Matplotlib, Pandas)**
@@ -23,7 +23,7 @@ Ultimately, this project demonstrates how raw job-market data can be transformed
 
 The analysis is broken down into five core areas, executing specific SQL queries to answer targeted business questions about the job market.
 
-### 1. Top Paying Platforms by Role
+### 1. Top paying platforms by role
 
 To determine which platforms host the highest-paying remote jobs, I used Common Table Expressions (CTEs) and Window Functions to rank platforms by average salary for each distinct data role.
 
@@ -76,7 +76,7 @@ ORDER BY
 > **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/f81631cb-9143-42dc-9cc0-f3621e976705" />
 **
 
-### 2. Platforms Favoring Junior Roles
+### 2. Platforms favoring junior roles
 
 Understanding where entry-level candidates should apply is critical. I utilized `CASE WHEN` statements with wildcard pattern matching to isolate junior, intern, and entry-level roles, aggregating them by platform.
 
@@ -120,7 +120,7 @@ ORDER BY
 
 > **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/1af7610a-ed88-4cc4-8d6d-5bcb2cf773f7" />**
 
-### 3. Top Platforms by Job Quantity (Pivoted by Role)
+### 3. Top platforms by job quantity 
 
 To assess the sheer volume of opportunities, I built a query using conditional aggregation to create a pivot-table effect, displaying total job counts across different platforms separated by specific roles.
 
@@ -159,7 +159,7 @@ LIMIT 20;
 
 > **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/d3bc50ff-3795-4d95-afa7-6d7cc00d6616" />**
 
-### 4. Job Volume vs. Salary by Platform
+### 4. Job volume vs. salary by platform
 
 Volume does not always equate to quality. This query joins two separate CTEs to compare the total number of job postings on a platform against the average salary offered, providing a holistic view of platform value.
 
@@ -206,7 +206,7 @@ LIMIT 30;
 
 **
 
-### 5. Optimal Skills for Junior Professionals
+### 5. Optimal skills for junior professionals
 
 To guide learning and development, I joined the main fact table with skill dimension tables to calculate which technical skills are most frequently requested in junior roles, and which of those skills yield the highest starting salaries.
 
@@ -253,7 +253,7 @@ LIMIT 40;
 > **<img width="2400" height="1500" alt="image" src="https://github.com/user-attachments/assets/71d78868-9f76-4c8d-b4d8-f00473d7f0b4" />
 **
 
-## What I Learned
+## What I learned
 
 Executing this analysis significantly enhanced my SQL proficiency, specifically in the following areas:
 
@@ -266,7 +266,7 @@ Executing this analysis significantly enhanced my SQL proficiency, specifically 
 
 The data reveals a critical strategic split in both platform selection and skill acquisition for data professionals. While LinkedIn dominates the overall market in total job volume, early-career candidates should focus heavily on ZipRecruiter and Indeed, which host the vast majority of entry-level roles. Conversely, to maximize earning potential, candidates must look beyond these generalist boards toward niche hubs like Y Combinator and Web3 Jobs, where specialized roles command immense salary premiums. Most importantly, the skills required to get a junior job are fundamentally different from the skills that maximize a junior salary. While Python and SQL are undeniable foundational requirements for passing initial screenings, mastering high-performance big data and cloud technologies—specifically Scala, Kafka, and AWS—is the true catalyst for commanding top-tier compensation early in a data career.
 
-## How to Run This Project
+## How to run this project
 1. Clone this repository
 2. .Download the required database files from this Google Drive link.
 3. Ensure you have a SQL client installed (e.g., pgAdmin, DBeaver, or a command-line interface).
