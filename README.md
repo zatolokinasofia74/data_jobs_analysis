@@ -243,7 +243,8 @@ ORDER BY
 LIMIT 40;
 ```
 
-> **![alt text](images\5_top_junior_skills_salary.png)**
+> **<img width="2400" height="1500" alt="image" src="https://github.com/user-attachments/assets/71d78868-9f76-4c8d-b4d8-f00473d7f0b4" />
+**
 
 ## What I Learned
 
