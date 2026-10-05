@@ -66,7 +66,8 @@ ORDER BY
     avg_salary DESC;
 ```
 
-> **![alt text](images\1_top_paying_analyst.png)**
+> **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/f81631cb-9143-42dc-9cc0-f3621e976705" />
+**
 
 ### 2. Platforms Favoring Junior Roles
 
