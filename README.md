@@ -2,9 +2,16 @@
 
 ## Introduction
 
-This repository contains an exploratory data analysis of the data job market, heavily focused on identifying the best platforms for job seekers, understanding salary distributions, and uncovering the most valuable skills for entry-level professionals. 
+Breaking into the data industry is not just about having the right skills — it is about knowing **where the opportunities are, what they pay, and which skills actually matter**.
 
-Using a relational database of job postings, this project leverages advanced SQL queries to extract actionable insights for Data Analysts, Data Scientists, Data Engineers, and related roles. The primary goals are to determine which job boards yield the highest remote salaries, where junior candidates should focus their search, and what technical skills provide the highest return on investment early in a career.
+This project turns a large database of job postings into practical answers for people building a career in Data Analytics, Data Science, Data Engineering, and related fields. Instead of relying on assumptions or generic career advice, I use advanced SQL analysis to uncover patterns in salaries, job boards, remote opportunities, experience requirements, and in-demand technical skills.
+
+The goal is simple: **help job seekers make smarter career decisions with data.**
+
+The analysis identifies which platforms offer the most attractive remote salaries, where entry-level and junior candidates have the best chances of finding opportunities, and which technical skills are associated with higher-paying positions. These insights can help candidates decide **where to search, what to learn, and which skills are worth investing their time in.**
+
+Ultimately, this project demonstrates how raw job-market data can be transformed into actionable insights — turning thousands of job postings into a clearer strategy for entering and growing in the data industry.
+
 
 ## Tools Used
 
