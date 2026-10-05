@@ -194,7 +194,8 @@ ORDER BY
 LIMIT 30;
 ```
 
-> **![alt text](images\4_top_junior_skills_demand.png)**
+> **<img width="2400" height="1200" alt="image" src="https://github.com/user-attachments/assets/d3bc50ff-3795-4d95-afa7-6d7cc00d6616" />
+**
 
 ### 5. Optimal Skills for Junior Professionals
 
