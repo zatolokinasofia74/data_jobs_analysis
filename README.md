@@ -264,14 +264,11 @@ Executing this analysis significantly enhanced my SQL proficiency, specifically 
 
 ## Conclusions
 
-Based on the SQL analysis, several key trends emerged in the data job market:
-
-1. **Platform Selection Matters:** Not all job boards are created equal. Certain platforms consistently offer higher salary averages for remote work, while others prioritize sheer volume.
-2. **Junior Opportunities:** Entry-level roles are distinctly clustered on specific platforms. Job seekers targeting junior roles should focus their efforts on the platforms identified in Query 2 to maximize their application success rate.
-3. **Skill ROI for Juniors:** The data clearly delineates which skills are merely "nice to have" versus those that actively drive up starting salaries for entry-level candidates. Focusing on the top skills identified in Query 5 provides the best return on educational investment.
+The data reveals a critical strategic split in both platform selection and skill acquisition for data professionals. While LinkedIn dominates the overall market in total job volume, early-career candidates should focus heavily on ZipRecruiter and Indeed, which host the vast majority of entry-level roles. Conversely, to maximize earning potential, candidates must look beyond these generalist boards toward niche hubs like Y Combinator and Web3 Jobs, where specialized roles command immense salary premiums. Most importantly, the skills required to get a junior job are fundamentally different from the skills that maximize a junior salary. While Python and SQL are undeniable foundational requirements for passing initial screenings, mastering high-performance big data and cloud technologies—specifically Scala, Kafka, and AWS—is the true catalyst for commanding top-tier compensation early in a data career.
 
 ## How to Run This Project
-
-1. Clone this repository.
-2. Connect to the provided database.
-3. Execute the `.sql` files in the `/queries/` directory in sequential order to replicate the analysis.
+1. Clone this repository
+2. .Download the required database files from this Google Drive link.
+3. Ensure you have a SQL client installed (e.g., pgAdmin, DBeaver, or a command-line interface).
+4. Connect your SQL client to the downloaded database.
+5. Execute the .sql files in the /queries/ directory in sequential order to replicate the analysis.
